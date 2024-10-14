@@ -89,7 +89,10 @@ ls /dev/serial/by-id/*
 > [!NOTE]
 > Use this serial that starts with `usb-Klipper_rp2040_` in Klipper, this is the correct one you need.
 
-**🥳 Yes! You have flashed Klipper onto your BTT Eddy using Katapult! In the future you only need to repeat these steps: build the klipper firmware (with bootloader offset), put the BTT Eddy into Katapult bootloader mode, flash the Klipper firmware with Katapult.**
+🥳 Yes! You have flashed Klipper onto your BTT Eddy using Katapult! In the future you only need to repeat these steps: 
+- build the klipper firmware (with bootloader offset)
+- put the BTT Eddy into Katapult bootloader mode
+- flash the Klipper firmware with Katapult, **done**
 
 > [!TIP]
 > Save the commands, with the correct serials, somewhere in a seperate text file so you can use (and find) them more easy later!
