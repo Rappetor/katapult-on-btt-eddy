@@ -1,7 +1,7 @@
 # Katapult on BTT Eddy
 Flash Katapult on BTT Eddy for more convenient Klipper firmware updates (no more pressing the boot button).
 
-This is a quick guide on how to flash Katapult on the BTT Eddy. **What:** Katapult is a configurable bootloader for Klipper. **Why:** When using Katapult you can flash Klipper much more easy onto your BTT Eddy, no longer do you need to power off and on the BTT Eddy while holding the little boot button. **How:** With Katapult you can enter the flashing mode by a simple console/SSH command and flash Klipper without having to touch your device.
+This is a quick guide on how to flash Katapult on the BTT Eddy. **What:** Katapult is a configurable bootloader for Klipper. **Why:** When using Katapult you can flash Klipper much more easy onto your BTT Eddy, no longer do you need to power off and on the BTT Eddy while holding the little boot button. **How:** With Katapult you can enter the flashing mode by a simple console/SSH command and flash Klipper without having to touch your device. Even remotely if you wish to do so..
 
 Originally made to go together with the [Sovol SV08 Mainline guide](https://github.com/Rappetor/Sovol-SV08-Mainline) and the [Automatic MCU script updater](https://github.com/Rappetor/Sovol-SV08-Mainline/tree/main/Automatic%20MCU%20script%20update). But this will work just as well with other Klipper printers with a BTT Eddy.
 
