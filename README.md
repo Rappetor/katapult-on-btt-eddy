@@ -96,3 +96,6 @@ ls /dev/serial/by-id/*
 
 > [!TIP]
 > Save the commands, with the correct serials, somewhere in a seperate text file so you can use (and find) them more easy later!
+
+## CONTRIBUTE & BUGS
+Got something to share? Got tips? Something ain't right in the guide? Something else? Please share! Create an issue and explain in there or even better; make a pull request with the fix/addition etc!
