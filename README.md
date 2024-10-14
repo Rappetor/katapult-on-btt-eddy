@@ -18,7 +18,7 @@ Install *pyserial* (we need this later to flash the firmware)
 pip3 install pyserial
 ```
 
-## PUT EDDY IN BOOT/DFU MODE
+## PUT BTT EDDY IN BOOT/DFU MODE
 Now we are going to need to put the BTT Eddy into boot/DFU mode (otherwise we cannot flash Katapult on it).
 1. Power off your BTT Eddy (e.g. pulling the USB plug, turning off the printer etc.)
 2. Press and *hold* the little boot button on top of the BTT Eddy and power up the BTT Eddy (e.g. plugging the USB cable back in or turning the printer back on etc.)
