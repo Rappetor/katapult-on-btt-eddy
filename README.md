@@ -5,7 +5,7 @@ This is a quick guide on how to flash Katapult on the BTT Eddy. **What:** Katapu
 
 Originally made to go together with the [Sovol SV08 Mainline guide](https://github.com/Rappetor/Sovol-SV08-Mainline) and the [Automatic MCU script updater](https://github.com/Rappetor/Sovol-SV08-Mainline/tree/main/Automatic%20MCU%20script%20update). But this will work just as well with other Klipper printers with a BTT Eddy.
 
-All this is made with the BTT Eddy *USB version* in mind, BTT Eddy Coil should be the same though. Use SSH to your printer to run the commands.
+All this is made with the BTT Eddy *USB version* in mind. Use SSH to your printer to run the commands.
 
 
 ## INSTALL KATAPULT
