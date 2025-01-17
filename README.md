@@ -58,7 +58,7 @@ ls /dev/serial/by-id/*
 > [!NOTE]
 > Since we *just* flashed Katapult to our BTT Eddy it's already in Katapult bootloader mode. When the serial starts with `usb-katapult_rp2040_` it's in Katapult bootloader mode, ready to receive a Klipper firmware, and when the serial starts with `usb-Klipper_rp2040_` it's in normal working mode. This `usb-Klipper_rp2040_` (e.g. `usb-Klipper_rp2040_45474E621A862D4A-if00`) is the serial you will use in Klipper.
 
-We have flashed Katapult onto our BTT Eddy and it's ready to receive a Klipper firmware! You can now use the [Automatic MCU script updater](https://github.com/Rappetor/Sovol-SV08-Mainline/tree/main/Automatic%20MCU%20script%20update) to flash the Klipper firmware to the BTT Eddy (choose menu option 3). Or do it manually in the steps below.
+We have flashed Katapult onto our BTT Eddy and it's ready to receive a Klipper firmware! You can now use the [Automatic MCU script updater](https://github.com/Rappetor/Sovol-SV08-Mainline/tree/main/Automatic%20MCU%20script%20update) (made for the Sovol SV08, option 3/Eddy will work for other machines as well) to flash the Klipper firmware to the BTT Eddy (choose menu option 3). Or do it manually in the steps below.
 
 ## BUILD & FLASH KLIPPER
 Let's build us a Klipper firmware for the BTT Eddy and flash this with Katapult.
