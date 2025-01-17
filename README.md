@@ -75,7 +75,8 @@ make KCONFIG_CONFIG=eddy.mcu -j4
 > Take note of the 16KiB bootloader offset! The BTT Eddy Klipper firmware now *needs* a bootloader offset otherwise it will overwrite Katapult and you will have to re-do the Katapult flashing part.
 
 After the Klipper firmware has been created we can flash it with Katapult!
-First put the BTT Eddy in Katapult bootloader mode if it isn't already (replace the serial with your serial):
+First put the BTT Eddy in Katapult bootloader mode _if it isn't already_ (replace the serial with your serial):<br>
+<sub>Is your Eddy already in Katapult bootloader mode, the serial starts with `usb-katapult`? Then you can skip to the next command and flash the `klipper.bin` with Katapult.</sub>
 ```bash
 cd ~/klipper/scripts/ && python3 -c 'import flash_usb as u; u.enter_bootloader("/dev/serial/by-id/usb-Klipper_rp2040_45474E621A862D4A-if00")'
 ```
